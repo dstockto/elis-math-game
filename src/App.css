@@ -16,22 +16,18 @@
 
 header {
   grid-area: header;
-  border: 1px dotted orange;
 }
 
 .game {
   grid-area: game;
-  border: 1px solid blue;
 }
 
 .scores {
   grid-area: scores;
-  border: 1px solid green;
 }
 
 .graphs {
   grid-area: graphs;
-  border: 1px solid red;
 }
 
 .settings {
