@@ -1,11 +1,11 @@
 .App {
   display: grid;
   grid-template-areas:
-  "header header header"
-  "game   scores graphs"
+  "header settings"
+  "content content"
   ;
 
-  grid-template-columns: 3fr 2fr 1fr;
+  grid-template-columns: 7fr 1fr;
 
   font-size: 60px;
 }
@@ -32,4 +32,15 @@ header {
 .graphs {
   grid-area: graphs;
   border: 1px solid red;
+}
+
+.settings {
+  grid-area: settings;
+}
+
+.game-content {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  grid-template-areas: "game scores graphs";
 }
